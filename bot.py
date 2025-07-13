@@ -75,4 +75,4 @@ async def listvps(interaction: discord.Interaction):
     await interaction.response.send_message(msg)
 
 # ⬇️ START BOT HERE ⬇️
-bot.run("MTM5Mzc5MDYzNjY5OTk0NzA5MA.Gg6KfA.pwlg4yw0Nm7ghkOQhksd3nssRNX7J7kjSpdE3c")
+bot.run("MTM5Mzc5MDYzNjY5OTk0NzA5MA.GFJTfd.D28zvW8aNH-UnDm6IuCcfEp1JH2EWbWzGcmEmg")
