@@ -26,7 +26,7 @@ def save_vps(data):
 @bot.event
 async def on_ready():
     await TREE.sync()
-    print(f"Logged in as {bot.user}")
+    print(f"✅ Logged in as {bot.user}")
 
 @TREE.command(name="crate", description="Create a new VPS with selected specs")
 @app_commands.describe(
@@ -73,3 +73,6 @@ async def listvps(interaction: discord.Interaction):
     for name, info in vps.items():
         msg += f"• **{name}** - {info['cpu']} CPU, {info['ram']}GB RAM, {info['disk']}GB Disk (Owner: {info['owner']})\n"
     await interaction.response.send_message(msg)
+
+# ⬇️ START BOT HERE ⬇️
+bot.run("MTM5Mzc5MDYzNjY5OTk0NzA5MA.Gg6KfA.pwlg4yw0Nm7ghkOQhksd3nssRNX7J7kjSpdE3c")
